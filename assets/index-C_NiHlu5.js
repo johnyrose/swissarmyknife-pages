@@ -1920,7 +1920,7 @@ ${t.comment}`:t.comment}this.doc.range[2]=t.offset;break}default:this.errors.pus
           grid-template-columns: 1fr;
         }
       }
-    `,document.head.appendChild(e)}}class fy{constructor(){L(this,"id","image-resizer");L(this,"name","Image Resizer");L(this,"description","Resize and optimize your images online");L(this,"seoMetadata",{title:"Free Online Image Resizer and Optimizer Tool",description:"Resize, compress, and optimize your images online for free. Easy-to-use tool that maintains image quality while reducing file size.",keywords:["image resizer","image optimizer","photo resizer","picture resize tool","compress images","resize photos online"]});L(this,"currentImage",null);L(this,"originalWidth",0);L(this,"originalHeight",0)}render(){const e=document.getElementById("toolContent");e&&(e.innerHTML=`
+    `,document.head.appendChild(e)}}class fy{constructor(){L(this,"id","image-resizer");L(this,"name","Image Resizer");L(this,"description","Resize and optimize your images online <br>Resizing is done entirely client-side and the images are not sent anywhere.");L(this,"seoMetadata",{title:"Free Online Image Resizer and Optimizer Tool",description:"Resize, compress, and optimize your images online for free. Easy-to-use tool that maintains image quality while reducing file size.",keywords:["image resizer","image optimizer","photo resizer","picture resize tool","compress images","resize photos online"]});L(this,"currentImage",null);L(this,"originalWidth",0);L(this,"originalHeight",0)}render(){const e=document.getElementById("toolContent");e&&(e.innerHTML=`
       <div class="tool-header">
         <h1 class="tool-title">${this.name}</h1>
         <p class="tool-description">${this.description}</p>
